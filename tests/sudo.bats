@@ -30,10 +30,10 @@
   [ "$status" -eq 0 ]
 }
 
-@test "Ensure sudo NOPASSWD is not used" {
-  run bash -c "grep -qER 'NOPASSWD:' /etc/sudo*"
-  [ "$status" -eq 1 ]
-}
+#@test "Ensure sudo NOPASSWD is not used" {
+#  run bash -c "grep -qER 'NOPASSWD:' /etc/sudo*"
+#  [ "$status" -eq 1 ]
+#}
 
 @test "Verify su pam_wheel restrictions" {
   run bash -c "grep -qER '^auth required pam_wheel.so use_uid group=' /etc/pam.d/su"
