@@ -2,10 +2,12 @@
 # https://raw.githubusercontent.com/konstruktoid/hardening/master/misc/suid.list
 
 7z
+aa-exec
 ab
 agetty
 alpine
 ansible-playbook
+ansible-test
 aoss
 apt
 apt-get
@@ -14,8 +16,8 @@ aria2c
 arj
 arp
 as
-ascii-xfr
 ascii85
+ascii-xfr
 ash
 aspell
 at
@@ -62,6 +64,7 @@ choom
 chown
 chroot
 chsh
+clamscan
 cmp
 cobc
 column
@@ -94,7 +97,9 @@ dmidecode
 dmsetup
 dnf
 docker
+dos2unix
 dosbox
+dotnet
 dpkg
 dstat
 dvips
@@ -102,6 +107,7 @@ easy_install
 eb
 ed
 efax
+elvish
 emacs
 env
 eqn
@@ -157,6 +163,7 @@ journalctl
 jq
 jrunscript
 jtag
+julia
 knife
 ksh
 ksshell
@@ -164,8 +171,8 @@ ksu
 kubectl
 latex
 latexmk
-ld.so
 ldconfig
+ld.so
 less
 lftp
 ln
@@ -203,6 +210,7 @@ nano
 nasm
 nawk
 nc
+ncftp
 neofetch
 netfilter-persistent
 newgrp
@@ -252,9 +260,11 @@ psftp
 psql
 ptx
 puppet
+pwsh
 python
 rake
 rbash
+rc
 readelf
 red
 redcarpet
@@ -302,6 +312,7 @@ sqlite3
 sqlmap
 ss
 ssh
+ssh-agent
 ssh-keygen
 ssh-keyscan
 sshpass
@@ -323,8 +334,10 @@ tbl
 tclsh
 tcpdump
 tcsh
+tdbtool
 tee
 telnet
+terraform
 tex
 tftp
 tic
@@ -344,10 +357,12 @@ umount
 unexpand
 uniq
 unshare
+unsquashfs
 unzip
 update-alternatives
 uudecode
 uuencode
+vagrant
 valgrind
 vi
 view
@@ -368,6 +383,7 @@ wireshark
 wish
 write
 xargs
+xdg-user-dir
 xdotool
 xelatex
 xetex
